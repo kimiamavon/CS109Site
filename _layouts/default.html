@@ -9,16 +9,16 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
-  <body  style ="margin: 0;">
+  <body>
     <section class="page-header">
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
     </section>
     <section class="main-content">
     <nav class="main-nav">
-      <ul style="list-style-type: none;width: 25%;position: fixed;height: 100%;overflow: auto;">
-        <li style="list-style: none;"><a href = "#welcome-to-github-pages">Introduction</a></li>
-        <li style="list-style: none;"><a href="#markdown">EDA</a></li>
+      <ul style="list-style: none">
+        <li style="list-style: none; display: inline-block;"><a href = "#welcome-to-github-pages">Introduction</a></li>
+        <li style="list-style: none; display: inline-block;"><a href="#markdown">EDA</a></li>
       </ul>
     </nav>
       {{ content }}
